@@ -8,11 +8,6 @@ import nltk
 from nltk.corpus import stopwords
 lemmatizer = nltk.stem.WordNetLemmatizer()
 
-st.set_page_config(layout="wide")
-st.set_option('deprecation.showPyplotGlobalUse', False)
-
-df = pd.read_csv('listings.csv')
-
 st.title("hi")
 
 @extra
