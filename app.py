@@ -10,8 +10,6 @@ st.write('You selected:', option)
 
 if st.button('Say hello'):
     st.write('Why hello there')
-else:
-    st.write('Goodbye')
     
 with col1:
    st.header("A cat")
