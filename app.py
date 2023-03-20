@@ -1,12 +1,5 @@
 import streamlit as st
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import re
-import string
-import nltk
-from nltk.corpus import stopwords
-lemmatizer = nltk.stem.WordNetLemmatizer()
+
 
 st.title("hi")
 
